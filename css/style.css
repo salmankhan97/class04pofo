@@ -12,28 +12,28 @@ header{
     background: #f9f9f9;
 }
 header div{
-    width: 1200px;
     margin: auto;
     display: flex;
     align-items: center;
     padding: 15px 0px;
-    flex: 0 1 auto;
-    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 header div a{
-    width: 20%;
     font-size: 12px;
     font-weight: 700;
 }
 header div a img{
     width: 100px;
 }
-header div ul{
-    display: flex;
-    justify-content: flex-end;
+header div nav{
+    justify-content: end;
     flex-wrap: wrap;
-    width: 80%;
-    flex: 0 1 auto;
+}
+header div nav ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 header div ul li{
     padding: 0px 20px;
@@ -47,35 +47,41 @@ section{
     flex-flow: column-reverse;
     padding: 60px;
 }
-section div{display: flex;flex-flow: column;}
+section div{display: flex;flex-flow: column;padding: 60px;}
 .yellow{
     background: url(../images/portfolio-item57.jpg);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .sky{
     background: url(../images/portfolio-item58.jpg);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .red{
     background: url(../images/portfolio-item59.jpg);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .lime{
     background: url(../images/portfolio-item60.jpg);
     background-position: center;
     background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .pink{
     background: url(../images/portfolio-item61.jpg);
     background-position: center;
     background-attachment: fixed;
-}
-.green{
-    background: url(../images/portfolio-item62.jpg);
-    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container p{
     font-size: 11px;
